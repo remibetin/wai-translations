@@ -1,7 +1,7 @@
 name: New translation
 description: Volunteer to translate a W3C WAI resource in your language.
 title: "[Lang]: "
-labels: ["", "triage"]
+labels: ["initial-translation", "triage"]
 projects: ["w3c/46"]
 
 body:
@@ -22,7 +22,6 @@ body:
     attributes:
       label: Language
       description: What language do you want to translate the resource into?
-      placeholder: ex.
     validations:
       required: true
   - type: checkboxes
@@ -31,7 +30,7 @@ body:
       label: Instructions
       description:
       options:
-        - label: I have read the information on Translating WAI Documents at https://www.w3.org/WAI/about/translating/
+        - label: I have read the information on [Translating WAI Documents](https://www.w3.org/WAI/about/translating/)
           required: true
-        - label: I will wait for confirmation that the resource is ready for translation.
+        - label: Before starting the translation, I will wait for confirmation that the resource is ready for translation.
           required: true
