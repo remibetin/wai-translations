@@ -35,10 +35,10 @@ body:
         - label: Before starting the translation, I will wait for confirmation that the resource is ready for translation.
           required: true
   - type: markdown
-      attributes:
-        value: |
-          ---
-          The following field is prefilled and should not be modified. Please click "Submit new issue".
+    attributes:
+      value: |
+        ---
+        The following field is prefilled and should not be modified. Please click "Submit new issue".
   - type: input
     id: github-link
     attributes:
